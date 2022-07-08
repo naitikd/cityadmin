@@ -21,6 +21,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import MedicalServicesIcon from '@mui/icons-material/MedicalServices';
 import AccessibleIcon from '@mui/icons-material/Accessible';
 import { NavLink } from 'react-router-dom';
+import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
 
 const drawerWidth = 240;
 
@@ -105,6 +106,7 @@ export default function Layout({ children  }) {
     {lable: 'Medicines', to: '/medicines', icon: <MedicalServicesIcon />},
     {lable: 'Patients', to: '/patients', icon: <AccessibleIcon />},
     {lable:'Doctor', to:'/doctor', icon:<MedicalServicesIcon />},
+    {lable:'Counter Redux', to:'/counter', icon:<HourglassBottomIcon />},
   ]
 
   return (
